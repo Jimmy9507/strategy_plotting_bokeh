@@ -1,0 +1,124 @@
+plot_1:
+  color: &plot_1_color '#E74C3C'
+  color_factor: &plot_1_color_factor '#4A90E2'
+
+plot_2:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor
+
+plot_3:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor
+
+plot_4:
+  color: *plot_1_color
+
+plot_5:
+  color_6: '#87A6E6'
+  color_12: '#DCDCDC'
+
+plot_6:
+  color: '#5283E7'
+  color_average: '#95A5A6'
+
+plot_8:
+  color_box:
+    - '#A5A5A5'
+    - '#BBBBBB'
+    - '#C5C5C5'
+    - '#D8D8D8'
+    - '#E8E8E8'
+  color: '#F5A623'
+
+plot_9:
+  neg:
+    - '#CEE638'
+    - '#CEE638'
+    - '#96E400'
+    - '#5FD500'
+    - '#07B900'
+    - '#069800'
+    - '#046700'
+
+  pos:
+    - '#FFAF00'
+    - '#FF8400'
+    - '#FF5300'
+    - '#FF0000'
+    - '#D90000'
+    - '#950000'
+
+  zero:
+    - '#FFAF00'
+
+
+
+plot_10:
+  color: '#4572A7'
+  color_mean: '#44F1FF'
+
+plot_11:
+  color: '#63A2EC'
+  color_mean: '#44F1FF'
+
+plot_17:
+  color_short: '#E82709'
+  color_long: '#2ECC71'
+  color_net: '#00401B'
+
+plot_18:
+  - '#BC0017'
+  - '#F5A623'
+  - '#B500FF'
+  - '#96E400'
+  - '#50E3C2'
+  - '#F54723'
+  - '#1ABC9C'
+  - '#4300FF'
+  - '#9013FE'
+  - '#4A90E2'
+
+plot_20:
+  daily: '#B2D4F1'
+  by_month: '#86A4E3'
+  average: '#4A7CB7'
+
+plot_21:
+  daily: '#B2E6F1'
+  by_month: '#24B3FF'
+  average: '#4A7CB7'
+
+plot_24:
+  color: '#186BBE'
+
+plot_25:
+  color: &round_trip_color '#A9C1F3'
+  color_mean: &round_trip_mean '#F54723'
+
+plot_26:
+  color: *round_trip_color
+  color_mean: *round_trip_mean
+
+plot_27:
+  color: *round_trip_color
+  color_mean: *round_trip_mean
+
+scenario_1:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor
+
+scenario_2:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor
+
+scenario_3:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor
+
+scenario_4:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor
+
+scenario_5:
+  color: *plot_1_color
+  color_factor: *plot_1_color_factor

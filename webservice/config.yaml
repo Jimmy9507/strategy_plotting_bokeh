@@ -1,0 +1,2 @@
+dest: mongodb://localhost:27017/
+celery: redis://localhost/15

@@ -1,0 +1,21 @@
+---
+database:
+  feeds:
+    offline:
+      host: 192.168.10.152
+      port: 27017
+      user: rice
+      password: rice
+      dbname: pull
+    online:
+      host: 192.168.100.60
+      port: 27017
+      user: pyfoliod
+      password: pyfoliod
+      dbname: feeds
+  runrecord:
+    host: 1.1.1.1
+    port: 27017
+    user: 1
+    password: 1
+    dbname: runinfo
